@@ -1,0 +1,30 @@
+//
+//  presentationLayer.h
+//  skil1.cpp
+//
+//  Created by Eyþór Snær Tryggvason on 27/11/14.
+//  Copyright (c) 2014 eythor. All rights reserved.
+//
+
+#ifndef skil1_cpp_presentationLayer
+#define skil1_cpp_presentationLayer
+
+#include <string>
+
+class Programmer {
+private:
+    std::string name;
+public:
+    Programmer();
+    void start();
+};
+
+Programmer::Programmer() {
+    
+}
+
+void Programmer::start(){
+    
+}
+
+#endif
